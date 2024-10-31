@@ -15,20 +15,27 @@
 // document.write(m)
 // console.log(x)
 
-// Difference between var and let //
-// var is function scope
-// if the var is not defied will give you undefined
-console.log(x);
-var x = 10;
-console.log(x);
+// // Difference between var and let //
+// // var is function scope
+// // if the var is not defied will give you undefined
+// console.log(x);
+// var x = 10;
+// console.log(x);
 
-// let is block scope
-// if the let is not defied will give you error
-// if will not be able to access let before initialization
-console.log(y);
-let y = 10;
-console.log(y);
+// // let is block scope
+// // if the let is not defied will give you error
+// // if will not be able to access let before initialization
+// console.log(y);
+// let y = 10;
+// console.log(y);
 
+
+// // const variable
+// // you can not change the value of const variable
+// const g = 'Welcom'
+// console.log(g)
+// g = 'hello'
+// console.log(g)
 
 
 
