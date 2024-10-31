@@ -38,3 +38,28 @@
 // console.log(g)
 
 // In javaScript we don't need to define the datatype of variables, because it is a dynamically typed language
+// Data Types 
+
+// let x = 100;
+// // This function is used to check the data type of x
+// console.log(typeof(x)) // number
+
+// let price = 100.50
+// console.log(typeof(price)) // number
+
+// let stuName = 'John'
+// console.log(typeof(stuName)) // string
+
+// let flag = true
+// console.log(typeof(flag)) // boolean
+
+// let Status = null
+// console.log(typeof(Status)) // object
+
+// if the value is not defined so its data type will be considered as undefined
+// let value;
+// console.log(typeof(value)) // undefined
+
+// // approach 2 for undefined
+// let value = undefined
+// console.log(typeof(value)) // undefined
