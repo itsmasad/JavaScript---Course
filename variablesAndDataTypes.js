@@ -37,6 +37,4 @@
 // g = 'hello'
 // console.log(g)
 
-
-
-
+// In javaScript we don't need to define the datatype of variables, because it is a dynamically typed language
