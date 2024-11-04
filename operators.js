@@ -52,7 +52,7 @@ console.log(c>d?c:d) // return value of d
 
 // Logical Operators
 // we can use these operators between two boolean values
-// (Or Operator "||") (And Operator "&&")
+// (Or Operator "||") (And Operator "&&") (Not operator "!")
 let m = true
 let n = false
 // If both variables are true it will return true, in all other cases it will return false
@@ -61,3 +61,6 @@ console.log(m && n) // false
 
 // This condition will return true, if one of the variable is true
 console.log(m || n) // true
+
+// This is a negation, if the value is true it will return false, if the value is false it will return true
+console.log(!m) 
