@@ -35,3 +35,8 @@ console.log(person.age) // 60
 // Remove the property from the object
 delete person.lastName;
 console.log(person.lastName) // Unverified
+
+// Accessing all the properties of an object using "for in loop"
+for(let x in person){
+    console.log(x,':',person[x])
+}
