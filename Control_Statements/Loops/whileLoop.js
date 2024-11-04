@@ -16,3 +16,12 @@ while(a<=10){
     // It will keep adding 2 in the current value of a
     a+=2
 }
+
+// Reverse loop 
+// 10,9,8,7,6 . . . 1
+let b = 10;
+while(b>0){
+    console.log(b);
+    // It will keep decreasing the value of b by 1 every time
+    b--;
+}
