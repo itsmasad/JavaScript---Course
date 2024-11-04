@@ -1,0 +1,39 @@
+<html>
+    <header>Calculator</header>
+    <body>
+        <input id="val1"/>
+        <input id="val2"/>
+        <br/>
+        <button id="addbtn">Add</button>
+        <button id="subbtn">Sub</button>
+        <button id="multbtn">Mul</button>
+        <p id="result"></p>
+    </body>
+    <script>
+        // Calling the add function on Click
+        document.getElementById("addbtn").onclick=add2Numbers;
+
+        // Calling the sub function on click
+        document.getElementById("subbtn").onclick=sub2Numbers;
+
+        
+        // Capturing the value provided in to those input boxes
+        function add2Numbers(){
+            // it is getting the data in string formate
+            let a=document.getElementById("val1").value;
+            let b=document.getElementById("val2").value;
+            // we need to convert the data from strings to int formate
+            // javascript we have method to convert data into int "parseInt()"
+            let res=parseInt(a)+parseInt(b);
+            // Here we are projecting the value in "p" tag,
+            document.getElementById("result").innerHTML=res;
+        }
+        function sub2Numbers(){
+            let a=document.getElementById("val1").value;
+            let b=document.getElementById("val2").value;
+            let res=parseInt(a)-parseInt(b);
+            document.getElementById("result").innerHTML=res;
+        }
+
+    </script>
+</html>
