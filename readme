@@ -1,0 +1,9 @@
+Approach 1:
+to execute javaScript direcly you will need "node" installed in your pc
+then you can use command line like "node file_name.js"
+
+Approach 2:
+You can directly write the javaScript code in html and open this document in browser
+
+Approach 3:
+You can use the plugin for live server and run that to execute the javascript
