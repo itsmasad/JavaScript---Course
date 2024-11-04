@@ -34,3 +34,30 @@ console.log(a%=b) // a = a%b
 
 // Relational / Comparison Operators
 // Always return a boolean value true/false
+// <  >  <=  >= !=
+
+c = 10;
+d = 20;
+console.log(c>d) // false
+console.log(c<d) // true
+console.log(c<=d) // true
+console.log(c>=d) // false
+console.log(c!=d) // true
+
+// Temprory operators
+// if condition "c<d" is true so it will return "c" other wise it will return "d"
+console.log(c<d?c:d) // return value of c
+// this is exectly oposite of the previous condition
+console.log(c>d?c:d) // return value of d
+
+// Logical Operators
+// we can use these operators between two boolean values
+// (Or Operator "||") (And Operator "&&")
+let m = true
+let n = false
+// If both variables are true it will return true, in all other cases it will return false
+// condition will be setisfied if both variables are true
+console.log(m && n) // false
+
+// This condition will return true, if one of the variable is true
+console.log(m || n) // true
