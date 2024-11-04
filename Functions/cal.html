@@ -16,9 +16,13 @@
         // Calling the sub function on click
         document.getElementById("subbtn").onclick=sub2Numbers;
 
+        // Calling the sub function on click
+        document.getElementById("multbtn").onclick=mul2Numbers;
+
         
-        // Capturing the value provided in to those input boxes
+        // Adding Numbers
         function add2Numbers(){
+            // Capturing the value provided in to those input boxes
             // it is getting the data in string formate
             let a=document.getElementById("val1").value;
             let b=document.getElementById("val2").value;
@@ -28,10 +32,20 @@
             // Here we are projecting the value in "p" tag,
             document.getElementById("result").innerHTML=res;
         }
+
+        // Subtracting Numbers
         function sub2Numbers(){
             let a=document.getElementById("val1").value;
             let b=document.getElementById("val2").value;
             let res=parseInt(a)-parseInt(b);
+            document.getElementById("result").innerHTML=res;
+        }
+
+        //Multiplying Numbers
+        function mul2Numbers(){
+            let a=document.getElementById("val1").value;
+            let b=document.getElementById("val2").value;
+            let res=parseInt(a)*parseInt(b);
             document.getElementById("result").innerHTML=res;
         }
 
