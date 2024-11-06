@@ -29,3 +29,4 @@ test.m1(); // This is static method...
 // 2) we can access Non-static variables only through objects
 let t= new test();
 console.log(t.b);
+t.m2()
