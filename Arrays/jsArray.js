@@ -40,3 +40,19 @@ console.log(mynewArray[1].age)
 let fruits = ["Banana","Apple","Orange","Graps"]
 // Getting the lengh of the array
 console.log(fruits.length)
+
+for(let i=0;i<=fruits.length-1;i++){
+    console.log(fruits[i])
+}
+
+// Looping elements from array using for of loop
+for(ele of fruits){
+    console.log(ele)
+}
+
+// Recongnizing the array variable
+console.log(typeof(fruits)) // Object
+
+// Using javascript predefined object "Array" we are recognizing the Array
+// if the variable is array, it will return true, otherwise it will return false
+console.log(Array.isArray(fruits))
