@@ -15,3 +15,7 @@ for(ele of fruits){
 
 // Recongnizing the array variable
 console.log(typeof(fruits)) // Object
+
+// Using javascript predefined object "Array" we are recognizing the Array
+// if the variable is array, it will return true, otherwise it will return false
+console.log(Array.isArray(fruits))
