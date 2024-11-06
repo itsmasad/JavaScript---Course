@@ -20,5 +20,12 @@ class test{
     }
 }
 // 1) we can directly access static variable/methods using class name
-console.log(test.a) // 10
-console.log(test.b) // undefined
+console.log(test.a); // 10
+console.log(test.b); // undefined
+
+test.m1(); // This is static method...
+// test.m2(); //error, incorrect way of calling method
+
+// 2) we can access Non-static variables only through objects
+let t= new test();
+console.log(t.b);
