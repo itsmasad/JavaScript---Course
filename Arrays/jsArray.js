@@ -12,3 +12,21 @@ console.log(car2[0])
 // Changing the value
 car2[0] = "BMW"
 console.log(car2[0])
+
+// Different variables in the array
+let myArray = ["Name",123,10.15,true]
+console.log(myArray)
+
+// We can have objects in array
+let person1 = {
+    name:"John",
+    age:30
+};
+let person2 = {
+    name:"David",
+    age:40
+};
+// Saving both objects in to an array
+let mynewArray = [person1,person2]
+
+console.log(mynewArray)
