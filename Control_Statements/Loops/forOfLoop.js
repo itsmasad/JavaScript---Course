@@ -12,3 +12,6 @@ for(let i=0;i<=fruits.length-1;i++){
 for(ele of fruits){
     console.log(ele)
 }
+
+// Recongnizing the array variable
+console.log(typeof(fruits)) // Object
