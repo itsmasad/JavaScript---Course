@@ -29,4 +29,9 @@ let person2 = {
 // Saving both objects in to an array
 let mynewArray = [person1,person2]
 
+// Calling array
 console.log(mynewArray)
+// Calling first object of array
+console.log(mynewArray[0])
+// Calling property of object from the array
+console.log(mynewArray[1].age)
