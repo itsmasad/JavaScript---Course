@@ -35,3 +35,8 @@ console.log(mynewArray)
 console.log(mynewArray[0])
 // Calling property of object from the array
 console.log(mynewArray[1].age)
+
+
+let fruits = ["Banana","Apple","Orange","Graps"]
+// Getting the lengh of the array
+console.log(fruits.length)
