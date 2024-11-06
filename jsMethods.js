@@ -7,6 +7,10 @@ console.log(str[0])
 // Approach 2
 console.log(str.charAt(i))
 
+// Random numbers generator
+let randomNum = Math.random();
+console.log(randomNum); // Random number between 0 (inclusive) and 1 (exclusive)
+
 
 // 1. Convert string to lowercase
 let str = "Hello World!";
